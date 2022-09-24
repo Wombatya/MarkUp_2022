@@ -1,0 +1,13 @@
+body {
+    font-family: Arial;
+}
+h1 {
+    border: 5px solid #cb1577;
+    background: pink;
+}
+img {
+    width: 250px;
+}
+div {
+    border: 5px solid gray;
+}
