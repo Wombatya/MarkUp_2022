@@ -1,0 +1,42 @@
+/* сначала общие стили */
+body {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+/* стили хэдера */
+header {
+    background: yellowgreen;
+}
+
+/* стили панели навигации */
+.main-menu {
+    background: skyblue;
+}
+.main-menu-list {
+    list-style: none;
+}
+
+/* стили контента */
+section {
+    background: orchid;
+}
+.section-item {
+    background: mediumpurple;
+}
+
+/* стили сайдбара */
+.sidebar-right {
+    background: wheat;
+}
+
+/* стили футера */
+footer {
+    background: lightcoral;
+}
