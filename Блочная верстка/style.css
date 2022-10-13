@@ -10,9 +10,22 @@ ul {
     width: 1140px;
     margin: 0 auto;
 }
+.wrap {
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
+}
+
+.wrap1 {
+    flex: 1;
+}
 /* стили хэдера */
 header {
     background: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
 }
 
 /* стили панели навигации */
@@ -21,22 +34,81 @@ header {
 }
 .main-menu-list {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
 }
 
 /* стили контента */
+.content {
+   display: flex; 
+}
 section {
     background: orchid;
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 .section-item {
     background: mediumpurple;
+    padding: 10px;
+    margin: 15px;
+    box-sizing: border-box;
+    width: calc(50% - 30px);
 }
 
 /* стили сайдбара */
 .sidebar-right {
     background: wheat;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news {
+    padding: 10px;
+    margin: 15px;
+    box-sizing: border-box;
 }
 
 /* стили футера */
 footer {
     background: lightcoral;
+    height:  150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+/* стили для пробы flex */
+/* .pink {
+    background: pink;
+    display: flex; 
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.orange {
+    background: orange;
+    border: 1px solid black; 
+    padding: 5px;
+    width: 50%;
+    box-sizing: border-box;
+} */
+
+
+
