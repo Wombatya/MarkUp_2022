@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .left-side-menu img {
-  width: 20%;
+  width: 25%;
   margin: 10px;
 }
 
@@ -42,7 +42,7 @@ body {
 
 .right-side-menu {
   font-size: 14px;
-  width: 40%;
+  width: 35%;
 }
 
 .right-side-menu-list {
@@ -51,17 +51,27 @@ body {
   list-style-type: none;
   padding: 0;
   width: 100%;
-  
+}
+
+.ATM {
+  text-decoration: underline;
+}
+
+.bank-online {
+  color: #3a95ff;
 }
 
 .main-menu {
   font-size: 14px;
   border-top: 1px solid rgb(213, 213, 213);
   border-bottom: 1px solid rgb(213, 213, 213);
+  width: 100%;
 }
 
 .nav-menu {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  padding-left: 10px;
 }
+
