@@ -1,0 +1,419 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+.main-container {
+  width: 100vw;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.upper-menu {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side-menu {
+  display: flex;
+  font-size: 14px;
+}
+
+.left-side-menu img {
+  width: 25%;
+  margin: 10px;
+}
+
+.left-side-menu-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 100%;
+}
+
+.right-side-menu {
+  font-size: 14px;
+  width: 35%;
+}
+
+.right-side-menu-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.ATM {
+  text-decoration: underline;
+}
+
+.bank-online {
+  color: #3a95ff;
+}
+
+.main-menu {
+  font-size: 14px;
+  border-top: 1px solid rgb(213, 213, 213);
+  border-bottom: 1px solid rgb(213, 213, 213);
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 10px;
+  width: 70%;
+}
+
+.link-change {
+  cursor: pointer;
+}
+
+.link-change:hover {
+  transform: scale(1.2);
+}
+
+.main-banner {
+  width: 100%;
+}
+
+.main-banner-wrapper {
+  width: 100%;
+  margin: 35px 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.loan-wrapper {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+.heading-blue {
+  color: #3a95ff;
+}
+
+.buttons-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 200px;
+  height: 55px;
+  font-size: 16px;
+  border: 0.5px solid #3a95ff;
+  border-radius: 4%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: #3a95ff;
+  color: white;
+}
+
+.white {
+  background-color: white;
+  color: #3a95ff;
+}
+
+.gray {
+  background-color: #e0e5ea;
+  color: #3a95ff;
+}
+
+.banner {
+  margin: 35px 0 0 65px;
+}
+
+.best-offers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.best-offers-wrapper {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.best-offer-title-big {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.best-offer-title-small {
+  font-size: 20px;
+  margin: 25px 0;
+}
+
+.bank-offers-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.bank-offer {
+  display: flex;
+  width: 47%;
+  margin: 35px 30px 25px 0;
+  background-color: #eff2f5;
+  border-radius: 2%;
+}
+
+.bank-offer-text {
+  width: 50%;
+}
+
+.bank-offer-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 34px 34px 0;
+}
+
+.bank-offer-description {
+  font-size: 16px;
+  margin: 24px 34px 0;
+}
+
+.bank-offer-pic {
+  width: 50%;
+}
+
+.credit-card {
+  width: 100%;
+  background-color: #eff2f5;
+  display: flex;
+  justify-content: center;
+}
+
+.credit-cards-wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 137px 0;
+}
+
+.card-special-offer {
+  width: 70%;
+  background-color: #e0e5ea;
+  border-radius: 2%;
+  box-shadow: 4px 6px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text-and-pic {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-text {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 34px 43px 0 100px;
+}
+
+.card-conditions-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 100px 0;
+}
+
+.card-condition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-upper-text {
+  margin: 0;
+  font-size: 30px;
+}
+
+.card-thin-line {
+  width: 157px;
+  height: 1px;
+  color: #3a95ff;
+  border-top: 1px solid #3a95ff;
+}
+
+.card-lower-text {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.card-buttons-wrapper {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin: 41px 0 41px 100px;
+}
+
+.credit-debet-cards {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards-heading {
+  margin: 34px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.arrow-wrapper {
+  display: flex;
+  justify-content: end;
+}
+
+.arrow {
+  margin: 17px 34px 34px;
+  cursor: pointer;
+}
+
+.credit-cards {
+  background-color: #f6f6f6;
+  border-radius: 2%;
+}
+
+.debet-cards {
+  background-color: #f6f6f6;
+  border-radius: 2%;
+}
+
+.card-thick-line {
+  height: 5px;
+  background-color: #3a95ff;
+}
+
+.get-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.get-card-wrapper {
+  width: 70%;
+
+}
+
+.get-card-heading {
+  margin: 70px 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.get-card-actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 110px;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.get-card-pic {
+  width: 82px;
+  height: 82px;
+}
+
+.get-card-text {
+  margin: 23px;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  background-color: #eff2f5;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  width: 70%;
+  margin: 35px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lisence-info {
+  width: 30%;
+}
+
+.company {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.lisence {
+  font-size: 14px;
+  margin: 22px 0 0;
+}
+
+.address-info {
+  width: 30%;
+}
+
+.feedback {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.address {
+  font-size: 14px;
+  margin: 22px 0 0;
+}
+
+.general-info {
+  width: 30%;
+}
+
+.percentage-info {
+  font-size: 14px;
+  margin: 0;
+}
+
+.obligatory-info {
+  font-size: 14px;
+  margin: 22px 0 0;
+}
