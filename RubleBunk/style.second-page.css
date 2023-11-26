@@ -1,0 +1,219 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+  
+  .main-container {
+    width: 100vw;
+  }
+  
+  .header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .upper-menu {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-side-menu {
+    display: flex;
+    font-size: 14px;
+  }
+  
+  .left-side-menu img {
+    width: 25%;
+    margin: 10px;
+  }
+  
+  .left-side-menu-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+  }
+  
+  .right-side-menu {
+    font-size: 14px;
+    width: 35%;
+  }
+  
+  .right-side-menu-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .ATM {
+    text-decoration: underline;
+  }
+  
+  .bank-online {
+    color: #3a95ff;
+  }
+  
+  .main-menu {
+    font-size: 14px;
+    border-top: 1px solid rgb(213, 213, 213);
+    border-bottom: 1px solid rgb(213, 213, 213);
+    width: 100%;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 10px;
+    width: 70%;
+  }
+  
+  .link-change {
+    cursor: pointer;
+  }
+  
+  .link-change:hover {
+    transform: scale(1.2);
+  }
+
+  .debet-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .debet-cards-wrapper {
+    width: 70%;
+    margin: 70px 0;
+  }
+
+  .debet-cards-heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .card-wrapper {
+    width: 100%;
+    background-color: #eff2fe;
+    margin-top: 70px;
+    display: flex;
+  }
+
+  .debet-cards-info {
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  .debet-card-info-heading {
+    margin: 0 30px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .debet-card-info-text {
+    margin: 42px 30px;
+    font-size: 20px;
+    line-height: 200%;
+  }
+
+  .debet-card-info-buttons {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+  }
+
+  button {
+    width: 200px;
+    height: 55px;
+    font-size: 16px;
+    border: 0.5px solid #3a95ff;
+    border-radius: 4%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .blue {
+    background-color: #3a95ff;
+    color: white;
+  }
+
+  .gray {
+    background-color: #e0e5ea;
+    color: #3a95ff;
+  }
+
+  footer {
+    width: 100%;
+    background-color: #eff2f5;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-wrapper {
+    width: 70%;
+    margin: 35px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .lisence-info {
+    width: 30%;
+  }
+  
+  .company {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .lisence {
+    font-size: 14px;
+    margin: 22px 0 0;
+  }
+  
+  .address-info {
+    width: 30%;
+  }
+  
+  .feedback {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    text-decoration: underline;
+  }
+  
+  .address {
+    font-size: 14px;
+    margin: 22px 0 0;
+  }
+  
+  .general-info {
+    width: 30%;
+  }
+  
+  .percentage-info {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .obligatory-info {
+    font-size: 14px;
+    margin: 22px 0 0;
+  }
+  
